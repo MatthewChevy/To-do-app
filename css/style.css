@@ -1,0 +1,125 @@
+.line-trough {
+  text-decoration: line-through; }
+
+.dlt-btn-wrap {
+  display: none; }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(180deg); } }
+.plus:hover {
+  animation: spin .5s; }
+
+/* general */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* clearfix */
+.group:before, .group:after {
+  content: " ";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+body {
+  max-width: 92%;
+  height: auto;
+  background-image: url(../img/206143.jpg); }
+
+h1 {
+  padding-top: 1.250em;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.500em;
+  margin: 0 auto;
+  position: relative;
+  left: 1.250em; }
+
+.add-button {
+  background: #0066ff;
+  border: none;
+  width: 2.875em;
+  height: 2.781em;
+  position: absolute;
+  top: 0.031em; }
+
+#form {
+  padding-top: 1.563em;
+  padding-bottom: 1.563em;
+  text-align: center;
+  position: relative;
+  left: -0.4em; }
+
+.input {
+  height: 2.813em;
+  width: 18.375em; }
+
+.input, .add-button:focus {
+  outline: none; }
+
+.btn-div {
+  position: relative;
+  top: -2.813em;
+  left: 9.063em; }
+
+.textbox {
+  border: 0.063em solid;
+  margin: 0 auto;
+  max-width: 25.000em;
+  height: auto;
+  min-height: 3.125em;
+  padding: 0.938em 1.563em 0em 0.938em;
+  background: white;
+  margin-bottom: 0.938em;
+  border-radius: 0.313em;
+  white-space: normal; }
+
+.eventslist {
+  text-align: center;
+  width: 29.063em;
+  margin: 0 auto; }
+
+.textbox:hover {
+  transition: .3s;
+  transform: scale(1.05, 1.05); }
+
+.plus {
+  color: white;
+  font-size: 1.9em;
+  font-weight: 600;
+  position: absolute;
+  top: 0.17em;
+  left: 0.5em; }
+
+.close {
+  display: block;
+  position: relative;
+  top: -3.438em;
+  left: 13.938em;
+  color: red;
+  cursor: pointer; }
+
+.delete-button {
+  position: relative;
+  max-width: 7.188em;
+  margin: 1.875em 0em 0em 20.000em;
+  border: 0.063em solid;
+  padding: 0.625em 2.188em;
+  background: whitesmoke;
+  border-radius: 0.313em;
+  cursor: pointer; }
+
+.delete-button:hover {
+  transform: scale(1.1, 1.1);
+  border-radius: 0.125em;
+  transition: .7s; }
+
+/*# sourceMappingURL=style.css.map */
